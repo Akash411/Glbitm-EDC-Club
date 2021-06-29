@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1200px) {
+  .container-block {
+    height: 90vh;
+  }
+  .container {
+    width: 70%;
+  }
+  .slide-controls {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .container-block {
+    background: transparent;
+  }
+  .container {
+    width: 300px;
+    height: 90%;
+  }
+  .slide-controls {
+    width: 90%;
+  }
+  #prev-btn,
+  #next-btn {
+    color: grey;
+    opacity: 0.8;
+  }
+  .slide {
+    flex-direction: column;
+  }
+}
