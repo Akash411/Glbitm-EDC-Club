@@ -5,6 +5,10 @@
   padding: 0;
   font-family: "Lato", sans-serif;
 }
+body {
+  background: #0f1626;
+  color: white;
+}
 .sectionPart {
   padding-top: 130px;
   display: flex;
@@ -62,10 +66,10 @@ hr {
   min-height: 100%;
   background: linear-gradient(
     to right,
-    black 00%,
-    black 50%,
-    #1a1a1a 50%,
-    #1a1a1a 100%
+    #0f1626 00%,
+    #0f1626 50%,
+    #162038 50%,
+    #162038 100%
   );
   border-radius: 10px;
   transition: min-height 0.5s;
