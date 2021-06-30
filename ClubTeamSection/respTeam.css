@@ -11,11 +11,10 @@
 }
 @media only screen and (max-width: 800px) {
   .container-block {
-    background: transparent;
+    height: 110vh;
   }
   .container {
-    width: 300px;
-    height: 90%;
+    height: 70vh;
   }
   .slide-controls {
     width: 90%;
@@ -27,5 +26,14 @@
   }
   .slide {
     flex-direction: column;
+  }
+  .slide img {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100%;
   }
 }
